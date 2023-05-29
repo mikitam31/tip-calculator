@@ -1,0 +1,34 @@
+:root {
+  --border-radius: 12px;
+  --color-white: hsl(0, 0%, 100%);
+  --color-lightest-cyan: hsl(189, 41%, 97%);
+  --color-light-cyan: hsl(185, 41%, 84%);
+  --color-cyan: hsl(184, 14%, 56%);
+  --color-dark-cyan: hsl(186, 14%, 43%);
+  --color-darkest-cyan: hsl(183, 100%, 15%);
+  --color-strong-cyan: hsl(172, 67%, 45%);
+  --width-mobile: 375px;
+  --width-desktop: 1440px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  background: var(--color-light-cyan);
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
