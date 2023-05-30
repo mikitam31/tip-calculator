@@ -1,0 +1,15 @@
+.root {
+  background: var(--color-white);
+  padding: var(--padding);
+  border-radius: var(--border-radius);
+}
+
+@media screen and (min-width: 1440px) {
+  .root {
+    max-width: var(--desktop-width);
+    margin: 0 auto;
+    display: grid;
+    gap: var(--padding);
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
