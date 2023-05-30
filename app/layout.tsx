@@ -1,8 +1,11 @@
 import './globals.css'
 import { Space_Mono } from 'next/font/google'
-import { Header } from './components';
 
-const inter = Space_Mono({ subsets: ['latin'], weight: ['700'] })
+const mono = Space_Mono({
+  subsets: [ 'latin' ],
+  weight: [ '700' ],
+  variable: '--font-mono'
+})
 
 export const metadata = {
   title: 'Tip Calculator',
@@ -16,8 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={ inter.className }>
-        <Header />
+      <body className={ mono.className }>
         { children }
       </body>
     </html>
