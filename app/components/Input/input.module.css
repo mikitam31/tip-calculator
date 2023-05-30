@@ -1,0 +1,48 @@
+.root {
+  position: relative;
+  margin-bottom: 24px;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  position: absolute;
+  left: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.error {
+  color: var(--color-red);
+  font-size: 16px;
+}
+
+.input {
+  background: var(--color-lightest-cyan);
+  border-radius: 8px;
+  padding: 8px;
+  border: none;
+  outline: none;
+  font-size: var(--font-size);
+  color: var(--color-darkest-cyan);
+  font-weight: 700;
+  line-height: var(--font-size);
+  text-align: right;
+  font-family: var(--font-mono);
+  width: 100%;
+}
+
+.input:active, .input:focus {
+  outline: 2px solid var(--color-strong-cyan);
+}
+
+.errors {
+  outline: 2px solid var(--color-red);
+}
