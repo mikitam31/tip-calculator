@@ -1,0 +1,18 @@
+.root {
+  background: var(--color-darkest-cyan);
+  padding: 24px;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.reset {
+  margin-top: 24px;
+}
+
+@media screen and (min-width: 1440px) {
+  .root {
+    padding: 32px;
+  }
+}

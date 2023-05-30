@@ -1,0 +1,21 @@
+.root {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.primary {
+  color: var(--color-white);
+  font-size: var(--font-size);
+}
+
+.secondary {
+  color: var(--color-dark-cyan);
+  font-size: 16px;
+}
+
+.value {
+  color: var(--color-strong-cyan);
+  font-size: 32px;
+}
