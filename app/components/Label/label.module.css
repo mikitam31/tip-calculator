@@ -1,0 +1,6 @@
+.root {
+  color: var(--color-dark-cyan);
+  font-size: 16px;
+  margin-bottom: 8px;
+  display: block;
+}
